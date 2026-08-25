@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCAG 2.1 AA Audit — Arapahoe Community College (https://arapahoe.edu)</title>
+<meta name="description" content="Automated weekly WCAG 2.1 AA accessibility audit results for https://arapahoe.edu, produced with axe-core.">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 940px;
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #212f3c; background: #fdfdfc;
+  }
+  header h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  header .sub { color: #566573; margin: 0 0 1rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; color: #566573; font-size: .92rem; border-bottom: 1px solid #e3e7ea; padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem; margin-bottom: 1rem; }
+  .card { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .9rem 1rem; }
+  .card .num { display: block; font-size: 1.9rem; font-weight: 700; line-height: 1.2; }
+  .card .lbl { color: #566573; font-size: .85rem; }
+  .sevcard { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: .6rem .8rem; display: flex; align-items: baseline; gap: .5rem; }
+  .sevcard .num { font-size: 1.4rem; font-weight: 700; }
+  .sevcard .lbl { color: #566573; font-size: .82rem; }
+  .severities { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: .5rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .75rem; }
+  .spark { width: 100%; max-width: 680px; height: auto; background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; }
+  .axis { font-size: 11px; fill: #7b8a8b; }
+  .delta { font-size: .9rem; font-weight: 600; }
+  .delta.up { color: #b03a2e; } .delta.down { color: #1e8449; }
+  .delta.flat, .delta.first { color: #7b8a8b; font-weight: 400; }
+  .page { background: #fff; border: 1px solid #e3e7ea; border-radius: 8px; padding: 1rem 1.25rem 1.25rem; margin-bottom: 1rem; }
+  .page.failed { border-color: #f0b27a; background: #fef9f3; }
+  .page h3 { margin: 0 0 .25rem; font-size: 1.05rem; word-break: break-all; }
+  .page h3 .title { font-weight: 400; color: #7b8a8b; font-size: .9rem; }
+  .page h4 { margin: 1rem 0 .5rem; font-size: .95rem; }
+  .count { color: #7b8a8b; font-weight: 400; font-size: .85rem; }
+  .total { margin: 0 0 .5rem; color: #566573; }
+  .clean { color: #1e8449; font-weight: 600; }
+  .warn { color: #b9770e; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid #eef1f2; vertical-align: top; }
+  th { color: #566573; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+  .targets { color: #7b8a8b; font-size: .82rem; word-break: break-all; max-width: 260px; }
+  code { background: #f4f6f7; padding: .1rem .35rem; border-radius: 4px; font-size: .85em; }
+  ul.inc { margin: .25rem 0 0; padding-left: 1.2rem; }
+  .note { color: #566573; font-size: .9rem; margin: .25rem 0 .75rem; }
+  table.pages { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  table.pages thead th {
+    position: sticky; top: 0; background: #fdfdfc; z-index: 1;
+    border-bottom: 2px solid #e3e7ea;
+  }
+  table.pages th.n, table.pages td.n { text-align: right; white-space: nowrap; }
+  table.pages td.n.bad { color: #b03a2e; font-weight: 700; }
+  table.pages td.pg { max-width: 0; }
+  table.pages td.pg a { word-break: break-all; }
+  table.pages .pwurl { display: block; color: #7b8a8b; font-size: .8rem; margin-top: .1rem; word-break: break-all; }
+  table.pages td.pg .err { word-break: break-all; }
+  table.pages td.links { white-space: nowrap; text-align: right; }
+  table.pages a.pgrep {
+    color: #2e86c1; text-decoration: none; font-weight: 600;
+    border: 1px solid #cfe6f5; background: #f4fafd; padding: .15rem .5rem; border-radius: 6px;
+  }
+  table.pages a.pgrep:hover { background: #e8f4fb; }
+  table.pages tr.bad td.pg a { color: #b03a2e; }
+  footer { margin-top: 2.5rem; border-top: 1px solid #e3e7ea; padding-top: 1rem; font-size: .85rem; color: #566573; }
+  footer a { color: #2e86c1; }
+  .datamenu { display: flex; flex-wrap: wrap; gap: 1rem; margin: .5rem 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>WCAG 2.1 AA Audit — Arapahoe Community College</h1>
+  <p class="sub"><a href="https://arapahoe.edu">https://arapahoe.edu</a></p>
+</header>
+
+<div class="meta">
+  <span>Last audited: <strong>August 25, 2026</strong> (UTC)</span>
+  <span>Published runs: 1</span>
+  <span>Tooling: <a href="https://github.com/ThirstyHead/audit-arapahoe.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
+  <span><span class="delta first">first published run</span></span>
+</div>
+
+<h2>Latest results</h2>
+<div class="cards">
+  <div class="card"><span class="num">171</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">105</span><span class="lbl">Pages audited</span></div>
+  <div class="card"><span class="num">216</span><span class="lbl">Need manual review</span></div>
+</div>
+<div class="severities">
+      <div class="sevcard" style="border-top:4px solid #b03a2e">
+        <span class="num">96</span>
+        <span class="lbl">Critical</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #ca6f1e">
+        <span class="num">75</span>
+        <span class="lbl">Serious</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #b7950b">
+        <span class="num">0</span>
+        <span class="lbl">Moderate</span>
+      </div>
+      <div class="sevcard" style="border-top:4px solid #707b7c">
+        <span class="num">0</span>
+        <span class="lbl">Minor</span>
+      </div></div>
+
+<h2>Trend</h2>
+<p class="count">The trend chart appears once at least two runs have been published.</p>
+
+<h2>Pages</h2>
+<p class="note">Every page audited in this run. “Audit report” opens that page's full axe report — violations, needs-review, and passes, with node-level detail.</p>
+
+<table class="pages">
+  <thead><tr><th class="pg">Page</th><th class="n">Violations</th><th class="n">Needs review</th><th>Report</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/" rel="noopener">Home | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/</span></td>
+      <td class="n">0</td>
+      <td class="n">10</td>
+      <td class="links"><a class="pgrep" href="pages/home.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/about-acc" rel="noopener">About ACC | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc</span></td>
+      <td class="n bad">9</td>
+      <td class="n">6</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/acc-vision-strategic-plan" rel="noopener">ACC Strategic Vision 2025-2030 | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/about-acc/acc-vision-strategic-plan</span></td>
+      <td class="n">0</td>
+      <td class="n">6</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-acc-vision-strategic-plan.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/accreditation" rel="noopener">Accreditation | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/accreditation</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-accreditation.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/college-leadership" rel="noopener">College Leadership at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/college-leadership</span></td>
+      <td class="n bad">3</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-college-leadership.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/college-leadership/information-about-covid-19/acc-cares" rel="noopener">ACC and the Higher Education Emergency Relief Fund | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/college-leadership/information-about-covid-19/acc-cares</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-college-leadership-information-about-covid-19-acc-cares.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/employment-acc" rel="noopener">Employment and Benefits | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/employment-acc</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-employment-acc.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/faculty-staff-directory/media-and-press/privacy-policy" rel="noopener">Privacy Policy for Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/faculty-staff-directory/media-and-press/privacy-policy</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-faculty-staff-directory-media-and-press-privacy-policy.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/foundation" rel="noopener">Arapahoe Community College Foundation</a> <span class="pwurl">https://arapahoe.edu/about-acc/foundation</span></td>
+      <td class="n bad">3</td>
+      <td class="n">10</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-foundation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/foundation/alumni" rel="noopener">Alumni Association | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/foundation/alumni</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-foundation-alumni.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/institutional-research" rel="noopener">Institutional Research | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/institutional-research</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-institutional-research.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/locations" rel="noopener">Locations in Littleton, Castle Rock, and Lone Tree | ACC</a> <span class="pwurl">https://arapahoe.edu/about-acc/locations</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-locations.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/locations/campus-maps" rel="noopener">Campus Maps | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/locations/campus-maps</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-locations-campus-maps.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/locations/castle-rock" rel="noopener">Castle Rock, Colorado Campus | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/locations/castle-rock</span></td>
+      <td class="n bad">21</td>
+      <td class="n">10</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-locations-castle-rock.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/locations/littleton" rel="noopener">Littleton, Colorado Campus | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/locations/littleton</span></td>
+      <td class="n bad">6</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-locations-littleton.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/locations/lone-tree" rel="noopener">DCSD Legacy Campus, Lone Tree | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/about-acc/locations/lone-tree</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-locations-lone-tree.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/media-and-press" rel="noopener">Information for Media and Press | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/about-acc/media-and-press</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-media-and-press.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/policies-procedures-processes" rel="noopener">Policies and Procedures | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/policies-procedures-processes</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-policies-procedures-processes.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/policies-procedures-processes/accessibility-statement-and-issue-reporting" rel="noopener">Accessibility Statement and Issue Reporting | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/policies-procedures-processes/accessibility-statement-and-issue-reporting</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-policies-procedures-processes-accessibility-statement-and-issue-reporting.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/social-equity-and-belonging-council" rel="noopener">Inclusive Excellence Council at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/about-acc/social-equity-and-belonging-council</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-social-equity-and-belonging-council.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/about-acc/visit-acc" rel="noopener">Visit an Arapahoe Community College Campus</a> <span class="pwurl">https://arapahoe.edu/about-acc/visit-acc</span></td>
+      <td class="n bad">3</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/about-acc-visit-acc.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs" rel="noopener">Academics and Programs | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs</span></td>
+      <td class="n bad">45</td>
+      <td class="n">19</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/academic-calendar" rel="noopener">Academic Calendar and Important Dates | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/academics-programs/academic-calendar</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-academic-calendar.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/academic-experiences" rel="noopener">Academic Experiences | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs/academic-experiences</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-academic-experiences.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/academic-experiences/apprenticeships" rel="noopener">Apprenticeships and On-the-Job Training at Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/academics-programs/academic-experiences/apprenticeships</span></td>
+      <td class="n bad">9</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-academic-experiences-apprenticeships.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/bookstore" rel="noopener">Bookstore and Cafe | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs/bookstore</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-bookstore.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/catalog/courses" rel="noopener">Courses | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs/catalog/courses</span></td>
+      <td class="n bad">2</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-catalog-courses.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/catalog/home" rel="noopener">Course Catalog | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs/catalog/home</span></td>
+      <td class="n">0</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-catalog-home.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/concurrent-enrollment" rel="noopener">Concurrent Enrollment | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs/concurrent-enrollment</span></td>
+      <td class="n bad">3</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-concurrent-enrollment.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/course-schedules-0" rel="noopener">Course Schedules and Registration | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/academics-programs/course-schedules-0</span></td>
+      <td class="n bad">6</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-course-schedules-0.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/degrees-certificates" rel="noopener">Degrees and Certificates at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs/degrees-certificates</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-degrees-certificates.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/degrees-certificates/bachelors-degrees" rel="noopener">Bachelor&#39;s and Partner Degrees | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/academics-programs/degrees-certificates/bachelors-degrees</span></td>
+      <td class="n bad">3</td>
+      <td class="n">7</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-degrees-certificates-bachelors-degrees.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/academics-programs/graduation" rel="noopener">Graduation and Commencement | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/academics-programs/graduation</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/academics-programs-graduation.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/admissions" rel="noopener">Admissions and Enrollment at Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/admissions</span></td>
+      <td class="n bad">4</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/admissions.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/admissions-checklist" rel="noopener">Admissions Checklist at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/admissions-checklist</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-admissions-checklist.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/admissions-requirements" rel="noopener">Admissions Requirements at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/admissions-requirements</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-admissions-requirements.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/admissions-requirements/international-students" rel="noopener">International Student Requirements | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/admissions/admissions-requirements/international-students</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-admissions-requirements-international-students.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/amazon-career-choice" rel="noopener">Amazon Career Choice | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/amazon-career-choice</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-amazon-career-choice.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/admissions/parents-and-families" rel="noopener">Parents and Families | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/parents-and-families</span></td>
+      <td class="n bad">1</td>
+      <td class="n">6</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-parents-and-families.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/paying-college" rel="noopener">Paying for College | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/paying-college</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-paying-college.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/paying-college/veteran-benefits" rel="noopener">Military and Veterans Services and Benefits | ACC</a> <span class="pwurl">https://arapahoe.edu/admissions/paying-college/veteran-benefits</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-paying-college-veteran-benefits.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/admissions/prior-learning-assessment" rel="noopener">Credit for Prior Learning (PLA) | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/admissions/prior-learning-assessment</span></td>
+      <td class="n bad">2</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-prior-learning-assessment.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/records-and-enrollment-services" rel="noopener">Records and Enrollment Services | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/records-and-enrollment-services</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-records-and-enrollment-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/register-classes" rel="noopener">Registration information for Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/register-classes</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-register-classes.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/student-orientation" rel="noopener">2-Part Student Orientation Experience | ACC</a> <span class="pwurl">https://arapahoe.edu/admissions/student-orientation</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-student-orientation.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/admissions/summer-acc" rel="noopener">Summer Courses at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/admissions/summer-acc</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/admissions-summer-acc.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support" rel="noopener">Advising and Support | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/advising-support</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/advising" rel="noopener">Academic Advising at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/advising-support/advising</span></td>
+      <td class="n bad">3</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-advising.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/career-services" rel="noopener">Career Services and Exploration | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/advising-support/career-services</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-career-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/d2l-resources" rel="noopener">D2L Resources | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/advising-support/d2l-resources</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-d2l-resources.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/disability-access-services" rel="noopener">Disability Access Services | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/advising-support/disability-access-services</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-disability-access-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/student-support" rel="noopener">Student Support Resources at Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/advising-support/student-support</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-student-support.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/student-support/campus-safety" rel="noopener">Campus Safety and Police | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/advising-support/student-support/campus-safety</span></td>
+      <td class="n bad">3</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-student-support-campus-safety.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/student-support/civil-rights-and-sexual-harassment" rel="noopener">Sexual Harassment Processes, Policies, and Assistance | ACC</a> <span class="pwurl">https://arapahoe.edu/advising-support/student-support/civil-rights-and-sexual-harassment</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-student-support-civil-rights-and-sexual-harassment.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/student-support/dean-students" rel="noopener">Dean of Students | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/advising-support/student-support/dean-students</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-student-support-dean-students.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/testing-center" rel="noopener">Testing Center and Resources | ACC</a> <span class="pwurl">https://arapahoe.edu/advising-support/testing-center</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-testing-center.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/transfer-services" rel="noopener">Transfer Services | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/advising-support/transfer-services</span></td>
+      <td class="n">0</td>
+      <td class="n">6</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-transfer-services.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/trio" rel="noopener">TRIO Student Support Services | ACC</a> <span class="pwurl">https://arapahoe.edu/advising-support/trio</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-trio.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/advising-support/tutoring-and-learning-resources" rel="noopener">Tutoring and Learning Resources | ACC</a> <span class="pwurl">https://arapahoe.edu/advising-support/tutoring-and-learning-resources</span></td>
+      <td class="n bad">6</td>
+      <td class="n">7</td>
+      <td class="links"><a class="pgrep" href="pages/advising-support-tutoring-and-learning-resources.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/blog" rel="noopener">Blog | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/blog</span></td>
+      <td class="n bad">1</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/blog.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/blog/acc-countdown-fall-2026-concludes" rel="noopener">ACC Countdown to Fall 2026 Concludes | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/blog/acc-countdown-fall-2026-concludes</span></td>
+      <td class="n bad">1</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/blog-acc-countdown-fall-2026-concludes.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/blog/countdown-fall-2026-continues" rel="noopener">Countdown to Fall 2026 continues | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/blog/countdown-fall-2026-continues</span></td>
+      <td class="n bad">1</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/blog-countdown-fall-2026-continues.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/blog/countdown-fall-2026-continues-august-12" rel="noopener">Countdown to Fall 2026 continues - August 12 | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/blog/countdown-fall-2026-continues-august-12</span></td>
+      <td class="n bad">1</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/blog-countdown-fall-2026-continues-august-12.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/blog/nokbox-coming-arapahoe-community-college-fall" rel="noopener">The Nokbox Is Coming to Arapahoe Community College This Fall | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/blog/nokbox-coming-arapahoe-community-college-fall</span></td>
+      <td class="n bad">1</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/blog-nokbox-coming-arapahoe-community-college-fall.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/blog/peer-academic-mentor-program" rel="noopener">Peer Academic Mentor Program | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/blog/peer-academic-mentor-program</span></td>
+      <td class="n bad">1</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/blog-peer-academic-mentor-program.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/campus-community" rel="noopener">Campus Community | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/campus-community</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/campus-community/art-galleries" rel="noopener">Art Galleries at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/campus-community/art-galleries</span></td>
+      <td class="n bad">6</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-art-galleries.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/campus-community/facility-rental" rel="noopener">Renting Facilities at Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/campus-community/facility-rental</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-facility-rental.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/campus-community/fitness-center" rel="noopener">Fitness Center | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/campus-community/fitness-center</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-fitness-center.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/campus-community/library-learning-commons" rel="noopener">Library &amp; Learning Commons | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/campus-community/library-learning-commons</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-library-learning-commons.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/campus-community/student-life" rel="noopener">Student Life and Activities | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/campus-community/student-life</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-student-life.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/campus-community/technology-acc" rel="noopener">Technology and Software Help | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/campus-community/technology-acc</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/campus-community-technology-acc.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/contact" rel="noopener">Contact Us | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/contact</span></td>
+      <td class="n">0</td>
+      <td class="n">3</td>
+      <td class="links"><a class="pgrep" href="pages/contact.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/events" rel="noopener">Events | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/events</span></td>
+      <td class="n bad">1</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/events.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/events/fafsa-lab" rel="noopener">FAFSA Lab | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/events/fafsa-lab</span></td>
+      <td class="n">0</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/events-fafsa-lab.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/events/rainbow-reception-1" rel="noopener">Rainbow Reception | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/events/rainbow-reception-1</span></td>
+      <td class="n">0</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/events-rainbow-reception-1.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/events/sti-hiv-testing-0" rel="noopener">STI / HIV Testing | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/events/sti-hiv-testing-0</span></td>
+      <td class="n">0</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/events-sti-hiv-testing-0.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news" rel="noopener">News | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news</span></td>
+      <td class="n bad">1</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/news.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/2026-commencement-ceremony-may-15" rel="noopener">2026 Commencement Ceremony – May 15 | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/2026-commencement-ceremony-may-15</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-2026-commencement-ceremony-may-15.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-2025-26-faculty-instructor-certifications" rel="noopener">ACC 2025-26 Faculty / Instructor Certifications | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/acc-2025-26-faculty-instructor-certifications</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-2025-26-faculty-instructor-certifications.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-architecture-duo-wins-2026-moa-competition" rel="noopener">ACC Architecture Duo Wins 2026 MOA Competition</a> <span class="pwurl">https://arapahoe.edu/news/acc-architecture-duo-wins-2026-moa-competition</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-architecture-duo-wins-2026-moa-competition.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-earns-highly-established-action-plan-seal-all" rel="noopener">ACC Earns Highly Established Action Plan Seal from ALL IN | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/acc-earns-highly-established-action-plan-seal-all</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-earns-highly-established-action-plan-seal-all.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-foundation-receives-225k-reisher-scholars-program" rel="noopener">ACC Foundation Receives $225K from Reisher Scholars Program | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/acc-foundation-receives-225k-reisher-scholars-program</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-foundation-receives-225k-reisher-scholars-program.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-foundation-receives-3k-littleton-rotary" rel="noopener">ACC Foundation Receives $3K from Littleton Rotary | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/acc-foundation-receives-3k-littleton-rotary</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-foundation-receives-3k-littleton-rotary.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-garners-basic-needs-campus-designation-cdhe" rel="noopener">ACC Garners Basic Needs Campus Designation from CDHE | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/acc-garners-basic-needs-campus-designation-cdhe</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-garners-basic-needs-campus-designation-cdhe.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-honored-oer-conference" rel="noopener">ACC Honored at OER Conference | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/acc-honored-oer-conference</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-honored-oer-conference.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/acc-music-competes-unc-greeley-jazz-festival" rel="noopener">ACC Music Competes at UNC Greeley Jazz Festival | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/acc-music-competes-unc-greeley-jazz-festival</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-acc-music-competes-unc-greeley-jazz-festival.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/cccs-honors-acc-employees-year" rel="noopener">CCCS Honors ACC Employees of the Year | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/cccs-honors-acc-employees-year</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-cccs-honors-acc-employees-year.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/delao-honored-cacte" rel="noopener">DeLa&#39;O Honored by CACTE | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/delao-honored-cacte</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-delao-honored-cacte.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/fujii-named-aacc-board-chair-elect" rel="noopener">Fujii Named AACC Board Chair-Elect | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/fujii-named-aacc-board-chair-elect</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-fujii-named-aacc-board-chair-elect.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/nasa-hubs-awards-13m-grant-colorado-space-institute-acc" rel="noopener">NASA Hubs Awards $1.3M Grant to Colorado Space Institute at ACC | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/nasa-hubs-awards-13m-grant-colorado-space-institute-acc</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-nasa-hubs-awards-13m-grant-colorado-space-institute-acc.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/tomas-named-chima-president-elect" rel="noopener">Tomas Named CHIMA President-Elect | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/tomas-named-chima-president-elect</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-tomas-named-chima-president-elect.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/vice-president-instruction-search" rel="noopener">Vice President of Instruction Search | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/vice-president-instruction-search</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-vice-president-instruction-search.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/news/viola-named-outstanding-vocational-faculty-advisor" rel="noopener">Viola Named Outstanding Vocational Faculty Advisor | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/news/viola-named-outstanding-vocational-faculty-advisor</span></td>
+      <td class="n bad">1</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/news-viola-named-outstanding-vocational-faculty-advisor.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/pathways" rel="noopener">Pathways | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/pathways</span></td>
+      <td class="n">0</td>
+      <td class="n">0</td>
+      <td class="links"><a class="pgrep" href="pages/pathways.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/public-projects" rel="noopener">Public Projects | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/public-projects</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/public-projects.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs" rel="noopener">Workforce &amp; Community Programs | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs</span></td>
+      <td class="n bad">6</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/business-and-community-partnerships" rel="noopener">Business Partnerships and Training | Arapahoe CC</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/business-and-community-partnerships</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-business-and-community-partnerships.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/career-forward" rel="noopener">Career Forward | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/career-forward</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-career-forward.html">Audit report</a></td>
+    </tr>
+    <tr class="bad">
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/colorado-health-careers-academy" rel="noopener">Colorado Health Careers Academy | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/colorado-health-careers-academy</span></td>
+      <td class="n bad">3</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-colorado-health-careers-academy.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/colorado-space-institute" rel="noopener">Colorado Space Institute at ACC | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/colorado-space-institute</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-colorado-space-institute.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/littleton-leadership-academy" rel="noopener">Littleton Leadership Academy | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/littleton-leadership-academy</span></td>
+      <td class="n">0</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-littleton-leadership-academy.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/mobile-learning-lab" rel="noopener">Mobile Learning Lab | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/mobile-learning-lab</span></td>
+      <td class="n">0</td>
+      <td class="n">5</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-mobile-learning-lab.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/policies" rel="noopener">Policies | ACC Workforce &amp; Community Programs</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/policies</span></td>
+      <td class="n">0</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-policies.html">Audit report</a></td>
+    </tr>
+    <tr>
+      <td class="pg"><a href="https://arapahoe.edu/workforce-community-programs/year-career" rel="noopener">Year to Career | Arapahoe Community College</a> <span class="pwurl">https://arapahoe.edu/workforce-community-programs/year-career</span></td>
+      <td class="n">0</td>
+      <td class="n">1</td>
+      <td class="links"><a class="pgrep" href="pages/workforce-community-programs-year-career.html">Audit report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Data</h2>
+<div class="datamenu">
+  <a href="latest.json">latest.json</a>
+  <a href="history.json">history.json</a>
+  <a href="https://github.com/ThirstyHead/arcc-audit/blob/main/reports/axe-2026-08-25T06-45-28-503Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/arcc-audit/tree/main/reports">All raw reports</a>
+</div>
+
+<footer>
+  <p><strong>About this audit.</strong> Results are produced automatically by
+  <a href="https://github.com/dequelabs/axe-core">axe-core</a> (Deque) against the WCAG 2.1 A/AA rule set,
+  on a weekly schedule, by the open-source tooling in
+  <a href="https://github.com/ThirstyHead/audit-arapahoe.edu">ThirstyHead/audit-arapahoe.edu</a>.
+  Automated tooling detects only a subset of accessibility failures and does not replace
+  manual or assistive-technology testing. “Needs manual review” items are results axe
+  could not determine automatically.</p>
+  <p>Generated 2026-08-25T06:45:29.255Z · <a href="https://thirstyhead.com/arcc-audit/">thirstyhead.com/arcc-audit/</a></p>
+</footer>
+</body>
+</html>
