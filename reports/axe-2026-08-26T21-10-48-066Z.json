@@ -1,0 +1,4141 @@
+{
+  "generated": "2026-08-26T21:10:48.066Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://arapahoe.edu/",
+      "title": "Home | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/",
+      "slug": "home",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 10,
+          "firstTargets": [
+            "a[href$=\"academics-programs\"] > .hero-slider__slide__title > p",
+            "a[href$=\"academics-programs\"] > .hero-slider__slide__title > p > em",
+            ".tab-menu__titles__tabtitle.active"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc",
+      "title": "About ACC | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc",
+      "slug": "about-acc",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#\\32 65699362 .ytmVideoInfoVideoTitle",
+            "#\\32 0629573 .ytmVideoInfoVideoTitle",
+            "#\\35 50107503 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#\\32 65699362 #movie_player",
+            "#\\32 0629573 #movie_player",
+            "#\\35 50107503 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#\\32 65699362 .ytmVideoInfoChannelAvatar",
+            "#\\32 0629573 .ytmVideoInfoChannelAvatar",
+            "#\\35 50107503 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 9,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]",
+            ".slick-current > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_title",
+            ".slick-current > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p"
+          ]
+        },
+        {
+          "id": "frame-title-unique",
+          "impact": "serious",
+          "help": "Frames must have a unique title attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\32 0629573",
+            "#\\35 50107503"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/acc-vision-strategic-plan",
+      "title": "ACC Strategic Vision 2025-2030 | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/acc-vision-strategic-plan",
+      "slug": "about-acc-acc-vision-strategic-plan",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]",
+            ".field_title",
+            ".p1:nth-child(1) > .s1"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/accreditation",
+      "title": "Accreditation | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/accreditation",
+      "slug": "about-acc-accreditation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/college-leadership",
+      "title": "College Leadership at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/college-leadership",
+      "slug": "about-acc-college-leadership",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\38 53638024 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\38 53638024 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\38 53638024 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "a[data-drupal-link-system-path=\"node/187\"]",
+            ".cta-button"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/college-leadership/information-about-covid-19/acc-cares",
+      "title": "ACC and the Higher Education Emergency Relief Fund | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/college-leadership/information-about-covid-19/acc-cares",
+      "slug": "about-acc-college-leadership-information-about-covid-19-acc-cares",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/employment-acc",
+      "title": "Employment and Benefits | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/employment-acc",
+      "slug": "about-acc-employment-acc",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/faculty-staff-directory/media-and-press/privacy-policy",
+      "title": "Privacy Policy for Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/faculty-staff-directory/media-and-press/privacy-policy",
+      "slug": "about-acc-faculty-staff-directory-media-and-press-privacy-policy",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/foundation",
+      "title": "Arapahoe Community College Foundation",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/foundation",
+      "slug": "about-acc-foundation",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\31 15932331 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\31 15932331 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\31 15932331 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 9,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]",
+            ".paragraph--type--feature-slider-slide__text > .field_title",
+            ".paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/foundation/alumni",
+      "title": "Alumni Association | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/foundation/alumni",
+      "slug": "about-acc-foundation-alumni",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/institutional-research",
+      "title": "Institutional Research | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/institutional-research",
+      "slug": "about-acc-institutional-research",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/locations",
+      "title": "Locations in Littleton, Castle Rock, and Lone Tree | ACC",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/locations",
+      "slug": "about-acc-locations",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".slick-current > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_title",
+            ".slick-current > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/locations/campus-maps",
+      "title": "Campus Maps | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/locations/campus-maps",
+      "slug": "about-acc-locations-campus-maps",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/locations/castle-rock",
+      "title": "Castle Rock, Colorado Campus | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/locations/castle-rock",
+      "slug": "about-acc-locations-castle-rock",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#\\38 05902778 .ytmVideoInfoVideoTitle",
+            "#\\39 68541230 .ytmVideoInfoVideoTitle",
+            "#\\36 73294393 .ytmVideoInfoVideoTitle",
+            "#\\34 96423538 .ytmVideoInfoVideoTitle",
+            "#\\35 3217256 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#\\38 05902778 #movie_player",
+            "#\\39 68541230 #movie_player",
+            "#\\36 73294393 #movie_player",
+            "#\\34 96423538 #movie_player",
+            "#\\35 3217256 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#\\38 05902778 .ytmVideoInfoChannelAvatar",
+            "#\\39 68541230 .ytmVideoInfoChannelAvatar",
+            "#\\36 73294393 .ytmVideoInfoChannelAvatar",
+            "#\\34 96423538 .ytmVideoInfoChannelAvatar",
+            "#\\35 3217256 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 21,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_title",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(1)",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(2) > .cta-button"
+          ]
+        },
+        {
+          "id": "frame-title-unique",
+          "impact": "serious",
+          "help": "Frames must have a unique title attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            "#\\39 68541230",
+            "#\\36 73294393",
+            "#\\34 96423538"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/locations/littleton",
+      "title": "Littleton, Colorado Campus | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/locations/littleton",
+      "slug": "about-acc-locations-littleton",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\38 78921994 .ytmVideoInfoVideoTitle",
+            "#\\31 70921111 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\38 78921994 #movie_player",
+            "#\\31 70921111 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\38 78921994 .ytmVideoInfoChannelAvatar",
+            "#\\31 70921111 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/locations/lone-tree",
+      "title": "DCSD Legacy Campus, Lone Tree | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/locations/lone-tree",
+      "slug": "about-acc-locations-lone-tree",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/media-and-press",
+      "title": "Information for Media and Press | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/media-and-press",
+      "slug": "about-acc-media-and-press",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/policies-procedures-processes",
+      "title": "Policies and Procedures | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/policies-procedures-processes",
+      "slug": "about-acc-policies-procedures-processes",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/policies-procedures-processes/accessibility-statement-and-issue-reporting",
+      "title": "Accessibility Statement and Issue Reporting | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/policies-procedures-processes/accessibility-statement-and-issue-reporting",
+      "slug": "about-acc-policies-procedures-processes-accessibility-statement-and-issue-reporting",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/social-equity-and-belonging-council",
+      "title": "Inclusive Excellence Council at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/social-equity-and-belonging-council",
+      "slug": "about-acc-social-equity-and-belonging-council",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav--expanded.expandable-nav > .is-active[data-drupal-link-system-path=\"node/5626\"][aria-current=\"page\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/about-acc/visit-acc",
+      "title": "Visit an Arapahoe Community College Campus",
+      "finalUrl": "https://www.arapahoe.edu/about-acc/visit-acc",
+      "slug": "about-acc-visit-acc",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\34 33564976 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\34 33564976 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\34 33564976 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs",
+      "title": "Academics and Programs | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs",
+      "slug": "academics-programs",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#\\33 79924652 .ytmVideoInfoVideoTitle",
+            "#\\34 40837253 .ytmVideoInfoVideoTitle",
+            "#\\39 7281748 .ytmVideoInfoVideoTitle",
+            "#\\35 61515072 .ytmVideoInfoVideoTitle",
+            "#\\39 924362 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#\\33 79924652 #movie_player",
+            "#\\34 40837253 #movie_player",
+            "#\\39 7281748 #movie_player",
+            "#\\35 61515072 #movie_player",
+            "#\\39 924362 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#\\33 79924652 .ytmVideoInfoChannelAvatar",
+            "#\\34 40837253 .ytmVideoInfoChannelAvatar",
+            "#\\39 7281748 .ytmVideoInfoChannelAvatar",
+            "#\\35 61515072 .ytmVideoInfoChannelAvatar",
+            "#\\39 924362 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 45,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_title",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(1)",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(2) > .cta-button"
+          ]
+        },
+        {
+          "id": "frame-title-unique",
+          "impact": "serious",
+          "help": "Frames must have a unique title attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            "#\\33 79924652",
+            "#\\34 40837253",
+            "#\\39 7281748"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/academic-calendar",
+      "title": "Academic Calendar and Important Dates | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/academic-calendar",
+      "slug": "academics-programs-academic-calendar",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/academic-experiences",
+      "title": "Academic Experiences | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/academic-experiences",
+      "slug": "academics-programs-academic-experiences",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/academic-experiences/apprenticeships",
+      "title": "Apprenticeships and On-the-Job Training at Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/academic-experiences/apprenticeships",
+      "slug": "academics-programs-academic-experiences-apprenticeships",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#\\33 81648012 .ytmVideoInfoVideoTitle",
+            "#\\39 05773827 .ytmVideoInfoVideoTitle",
+            "#\\32 02601237 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#\\33 81648012 #movie_player",
+            "#\\39 05773827 #movie_player",
+            "#\\32 02601237 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#\\33 81648012 .ytmVideoInfoChannelAvatar",
+            "#\\39 05773827 .ytmVideoInfoChannelAvatar",
+            "#\\32 02601237 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 9,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[data-drupal-link-system-path=\"node/17042\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/bookstore",
+      "title": "Bookstore and Cafe | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/bookstore",
+      "slug": "academics-programs-bookstore",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/catalog/courses",
+      "title": "Courses | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/catalog/courses",
+      "slug": "academics-programs-catalog-courses",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".form-item-field-course-type-target-id > label",
+            ".js-form-required"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#edit-field-course-type-target-id",
+            "#edit-field-catalog-target-id"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/catalog/home",
+      "title": "Course Catalog | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/catalog/home",
+      "slug": "academics-programs-catalog-home",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/concurrent-enrollment",
+      "title": "Concurrent Enrollment | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/concurrent-enrollment",
+      "slug": "academics-programs-concurrent-enrollment",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\32 13201086 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\32 13201086 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\32 13201086 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/course-schedules-0",
+      "title": "Course Schedules and Registration | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/course-schedules-0",
+      "slug": "academics-programs-course-schedules-0",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\37 23567025 .ytmVideoInfoVideoTitle",
+            "#\\32 40870602 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\37 23567025 #movie_player",
+            "#\\32 40870602 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\37 23567025 .ytmVideoInfoChannelAvatar",
+            "#\\32 40870602 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/degrees-certificates",
+      "title": "Degrees and Certificates at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/degrees-certificates",
+      "slug": "academics-programs-degrees-certificates",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/degrees-certificates/bachelors-degrees",
+      "title": "Bachelor's and Partner Degrees | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/degrees-certificates/bachelors-degrees",
+      "slug": "academics-programs-degrees-certificates-bachelors-degrees",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\37 26032838 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\37 26032838 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\37 26032838 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".field_title",
+            ".field_body_formatted > h2",
+            "u"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/academics-programs/graduation",
+      "title": "Graduation and Commencement | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/academics-programs/graduation",
+      "slug": "academics-programs-graduation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".paragraph--type--feature-slider-slide__text > .field_title",
+            ".field_body_formatted > p:nth-child(1)",
+            ".field_body_formatted > p:nth-child(2)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions",
+      "title": "Admissions and Enrollment at Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/admissions",
+      "slug": "admissions",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\37 3455045 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\37 3455045 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\37 3455045 .ytmVideoInfoChannelAvatar"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"100%\"] .WatermarkBarStyledComponentsstyles__WatermarkBarLogoLink-sc-352dbb-4"
+          ]
+        }
+      ],
+      "violationTotal": 4,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "iframe[width=\"100%\"] .WatermarkStyledComponentsstyles__WatermarkParagraph-sc-sc96bn-1",
+            "iframe[width=\"100%\"] .lmbCCY",
+            "iframe[width=\"100%\"] .lmbCDf"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/admissions-checklist",
+      "title": "Admissions Checklist at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/admissions-checklist",
+      "slug": "admissions-admissions-checklist",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/admissions-requirements",
+      "title": "Admissions Requirements at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/admissions-requirements",
+      "slug": "admissions-admissions-requirements",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/admissions-requirements/international-students",
+      "title": "International Student Requirements | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/admissions/admissions-requirements/international-students",
+      "slug": "admissions-admissions-requirements-international-students",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/amazon-career-choice",
+      "title": "Amazon Career Choice | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/amazon-career-choice",
+      "slug": "admissions-amazon-career-choice",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/parents-and-families",
+      "title": "Parents and Families | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/parents-and-families",
+      "slug": "admissions-parents-and-families",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[title=\"ACC Viewbook in English\"] .WatermarkBarStyledComponentsstyles__WatermarkBarLogoLink-sc-352dbb-4"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "iframe[title=\"ACC Viewbook in English\"] .WatermarkStyledComponentsstyles__WatermarkParagraph-sc-sc96bn-1",
+            "iframe[title=\"ACC Viewbook in English\"] .PageNumbersstyles__PageNumber-sc-xg3u78-0 > span[aria-hidden=\"true\"]",
+            "iframe[title=\"ACC Viewbook in English\"] .lmbCCY"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/paying-college",
+      "title": "Paying for College | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/paying-college",
+      "slug": "admissions-paying-college",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/paying-college/veteran-benefits",
+      "title": "Military and Veterans Services and Benefits | ACC",
+      "finalUrl": "https://www.arapahoe.edu/admissions/paying-college/veteran-benefits",
+      "slug": "admissions-paying-college-veteran-benefits",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/prior-learning-assessment",
+      "title": "Credit for Prior Learning (PLA) | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/admissions/prior-learning-assessment",
+      "slug": "admissions-prior-learning-assessment",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "th:nth-child(1) > ._sort_ptb3e_124[aria-sort=\"none\"]",
+            "th:nth-child(2) > ._sort_ptb3e_124[aria-sort=\"none\"]"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/records-and-enrollment-services",
+      "title": "Records and Enrollment Services | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/records-and-enrollment-services",
+      "slug": "admissions-records-and-enrollment-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/register-classes",
+      "title": "Registration information for Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/register-classes",
+      "slug": "admissions-register-classes",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/student-orientation",
+      "title": "2-Part Student Orientation Experience | ACC",
+      "finalUrl": "https://www.arapahoe.edu/admissions/student-orientation",
+      "slug": "admissions-student-orientation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/admissions/summer-acc",
+      "title": "Summer Courses at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/admissions/summer-acc",
+      "slug": "admissions-summer-acc",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support",
+      "title": "Advising and Support | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/advising-support",
+      "slug": "advising-support",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/advising",
+      "title": "Academic Advising at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/advising",
+      "slug": "advising-support-advising",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\34 4023503 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\34 4023503 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\34 4023503 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[data-drupal-link-system-path=\"node/19694\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/career-services",
+      "title": "Career Services and Exploration | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/career-services",
+      "slug": "advising-support-career-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/d2l-resources",
+      "title": "D2L Resources | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/d2l-resources",
+      "slug": "advising-support-d2l-resources",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/disability-access-services",
+      "title": "Disability Access Services | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/disability-access-services",
+      "slug": "advising-support-disability-access-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/student-support",
+      "title": "Student Support Resources at Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/student-support",
+      "slug": "advising-support-student-support",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/student-support/campus-safety",
+      "title": "Campus Safety and Police | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/student-support/campus-safety",
+      "slug": "advising-support-student-support-campus-safety",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\35 48357121 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\35 48357121 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\35 48357121 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]",
+            ".paragraph--type--feature-slider-slide__text > .field_title",
+            ".field_body_formatted > p:nth-child(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/student-support/civil-rights-and-sexual-harassment",
+      "title": "Sexual Harassment Processes, Policies, and Assistance | ACC",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/student-support/civil-rights-and-sexual-harassment",
+      "slug": "advising-support-student-support-civil-rights-and-sexual-harassment",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/student-support/dean-students",
+      "title": "Dean of Students | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/student-support/dean-students",
+      "slug": "advising-support-student-support-dean-students",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/testing-center",
+      "title": "Testing Center and Resources | ACC",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/testing-center",
+      "slug": "advising-support-testing-center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/transfer-services",
+      "title": "Transfer Services | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/transfer-services",
+      "slug": "advising-support-transfer-services",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            ".paragraph--type--feature-slider-slide__text > .field_title",
+            ".field_body_formatted > p:nth-child(1)",
+            ".field_body_formatted > p:nth-child(2)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/trio",
+      "title": "TRIO Student Support Services | ACC",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/trio",
+      "slug": "advising-support-trio",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/284\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/advising-support/tutoring-and-learning-resources",
+      "title": "Tutoring and Learning Resources | ACC",
+      "finalUrl": "https://www.arapahoe.edu/advising-support/tutoring-and-learning-resources",
+      "slug": "advising-support-tutoring-and-learning-resources",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\35 14709564 .ytmVideoInfoVideoTitle",
+            "#\\32 99906472 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\35 14709564 #movie_player",
+            "#\\32 99906472 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\35 14709564 .ytmVideoInfoChannelAvatar",
+            "#\\32 99906472 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".expandable-nav--expanded.expandable-nav > .is-active[data-drupal-link-system-path=\"node/284\"][aria-current=\"page\"]",
+            ".slick-current > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > h2",
+            ".slick-current > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p"
+          ]
+        },
+        {
+          "id": "frame-title-unique",
+          "impact": "serious",
+          "help": "Frames must have a unique title attribute",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\35 14709564",
+            "#\\32 99906472"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/blog",
+      "title": "Blog | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/blog",
+      "slug": "blog",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".js-form-type-select > label"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".article-list-main > .mini-pager[aria-labelledby=\"pagination-heading\"][role=\"navigation\"]",
+            ".js-view-dom-id-56bb9dd0a725e3b9d0eac599525673073f590a75a34f892a1c1e1f13cb0fa5e7 > .mini-pager[aria-labelledby=\"pagination-heading\"][role=\"navigation\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"edit-title--2\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/blog/acc-countdown-fall-2026-concludes",
+      "title": "ACC Countdown to Fall 2026 Concludes | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/blog/acc-countdown-fall-2026-concludes",
+      "slug": "blog-acc-countdown-fall-2026-concludes",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/blog/countdown-fall-2026-continues",
+      "title": "Countdown to Fall 2026 continues | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/blog/countdown-fall-2026-continues",
+      "slug": "blog-countdown-fall-2026-continues",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/blog/countdown-fall-2026-continues-august-12",
+      "title": "Countdown to Fall 2026 continues - August 12 | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/blog/countdown-fall-2026-continues-august-12",
+      "slug": "blog-countdown-fall-2026-continues-august-12",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/blog/nokbox-coming-arapahoe-community-college-fall",
+      "title": "The Nokbox Is Coming to Arapahoe Community College This Fall | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/blog/nokbox-coming-arapahoe-community-college-fall",
+      "slug": "blog-nokbox-coming-arapahoe-community-college-fall",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/blog/peer-academic-mentor-program",
+      "title": "Peer Academic Mentor Program | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/blog/peer-academic-mentor-program",
+      "slug": "blog-peer-academic-mentor-program",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/campus-community",
+      "title": "Campus Community | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/campus-community",
+      "slug": "campus-community",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/campus-community/art-galleries",
+      "title": "Art Galleries at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/campus-community/art-galleries",
+      "slug": "campus-community-art-galleries",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\31 97221759 .ytmVideoInfoVideoTitle",
+            "#\\35 53320425 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\31 97221759 #movie_player",
+            "#\\35 53320425 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\31 97221759 .ytmVideoInfoChannelAvatar",
+            "#\\35 53320425 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[data-drupal-link-system-path=\"node/5831\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/campus-community/facility-rental",
+      "title": "Renting Facilities at Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/campus-community/facility-rental",
+      "slug": "campus-community-facility-rental",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/campus-community/fitness-center",
+      "title": "Fitness Center | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/campus-community/fitness-center",
+      "slug": "campus-community-fitness-center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/campus-community/library-learning-commons",
+      "title": "Library & Learning Commons | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/campus-community/library-learning-commons",
+      "slug": "campus-community-library-learning-commons",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/campus-community/student-life",
+      "title": "Student Life and Activities | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/campus-community/student-life",
+      "slug": "campus-community-student-life",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/campus-community/technology-acc",
+      "title": "Technology and Software Help | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/campus-community/technology-acc",
+      "slug": "campus-community-technology-acc",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".paragraph--type--feature-slider-slide__text > .field_title",
+            ".paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(1)",
+            "a[data-entity-substitution=\"canonical\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/contact",
+      "title": "Contact Us | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/contact",
+      "slug": "contact",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".expandable-nav:nth-child(4) > a[data-drupal-link-system-path=\"node/5626\"]",
+            "#field61103897"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/events",
+      "title": "Events | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/events",
+      "slug": "events",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"edit-field-category-target-id\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/events/fafsa-lab",
+      "title": "FAFSA Lab | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/events/fafsa-lab",
+      "slug": "events-fafsa-lab",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/events/rainbow-reception-1",
+      "title": "Rainbow Reception | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/events/rainbow-reception-1",
+      "slug": "events-rainbow-reception-1",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/events/sti-hiv-testing-0",
+      "title": "STI / HIV Testing | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/events/sti-hiv-testing-0",
+      "slug": "events-sti-hiv-testing-0",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news",
+      "title": "News | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news",
+      "slug": "news",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".js-form-type-select > label"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".mini-pager"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"edit-title--2\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/news/2026-commencement-ceremony-may-15",
+      "title": "2026 Commencement Ceremony – May 15 | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/2026-commencement-ceremony-may-15",
+      "slug": "news-2026-commencement-ceremony-may-15",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-2025-26-faculty-instructor-certifications",
+      "title": "ACC 2025-26 Faculty / Instructor Certifications | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-2025-26-faculty-instructor-certifications",
+      "slug": "news-acc-2025-26-faculty-instructor-certifications",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-architecture-duo-wins-2026-moa-competition",
+      "title": "ACC Architecture Duo Wins 2026 MOA Competition",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-architecture-duo-wins-2026-moa-competition",
+      "slug": "news-acc-architecture-duo-wins-2026-moa-competition",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-earns-highly-established-action-plan-seal-all",
+      "title": "ACC Earns Highly Established Action Plan Seal from ALL IN | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-earns-highly-established-action-plan-seal-all",
+      "slug": "news-acc-earns-highly-established-action-plan-seal-all",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-foundation-receives-225k-reisher-scholars-program",
+      "title": "ACC Foundation Receives $225K from Reisher Scholars Program | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-foundation-receives-225k-reisher-scholars-program",
+      "slug": "news-acc-foundation-receives-225k-reisher-scholars-program",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-foundation-receives-3k-littleton-rotary",
+      "title": "ACC Foundation Receives $3K from Littleton Rotary | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-foundation-receives-3k-littleton-rotary",
+      "slug": "news-acc-foundation-receives-3k-littleton-rotary",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-garners-basic-needs-campus-designation-cdhe",
+      "title": "ACC Garners Basic Needs Campus Designation from CDHE | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-garners-basic-needs-campus-designation-cdhe",
+      "slug": "news-acc-garners-basic-needs-campus-designation-cdhe",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-honored-oer-conference",
+      "title": "ACC Honored at OER Conference | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-honored-oer-conference",
+      "slug": "news-acc-honored-oer-conference",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/acc-music-competes-unc-greeley-jazz-festival",
+      "title": "ACC Music Competes at UNC Greeley Jazz Festival | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/acc-music-competes-unc-greeley-jazz-festival",
+      "slug": "news-acc-music-competes-unc-greeley-jazz-festival",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/cccs-honors-acc-employees-year",
+      "title": "CCCS Honors ACC Employees of the Year | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/cccs-honors-acc-employees-year",
+      "slug": "news-cccs-honors-acc-employees-year",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/delao-honored-cacte",
+      "title": "DeLa'O Honored by CACTE | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/delao-honored-cacte",
+      "slug": "news-delao-honored-cacte",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/fujii-named-aacc-board-chair-elect",
+      "title": "Fujii Named AACC Board Chair-Elect | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/fujii-named-aacc-board-chair-elect",
+      "slug": "news-fujii-named-aacc-board-chair-elect",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/nasa-hubs-awards-13m-grant-colorado-space-institute-acc",
+      "title": "NASA Hubs Awards $1.3M Grant to Colorado Space Institute at ACC | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/nasa-hubs-awards-13m-grant-colorado-space-institute-acc",
+      "slug": "news-nasa-hubs-awards-13m-grant-colorado-space-institute-acc",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/tomas-named-chima-president-elect",
+      "title": "Tomas Named CHIMA President-Elect | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/tomas-named-chima-president-elect",
+      "slug": "news-tomas-named-chima-president-elect",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/vice-president-instruction-search",
+      "title": "Vice President of Instruction Search | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/vice-president-instruction-search",
+      "slug": "news-vice-president-instruction-search",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/news/viola-named-outstanding-vocational-faculty-advisor",
+      "title": "Viola Named Outstanding Vocational Faculty Advisor | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/news/viola-named-outstanding-vocational-faculty-advisor",
+      "slug": "news-viola-named-outstanding-vocational-faculty-advisor",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "label[for=\"custom-category-select\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/pathways",
+      "title": "Pathways | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/pathways",
+      "slug": "pathways",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://arapahoe.edu/public-projects",
+      "title": "Public Projects | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/public-projects",
+      "slug": "public-projects",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs",
+      "title": "Workforce & Community Programs | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs",
+      "slug": "workforce-community-programs",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\32 19612640 .ytmVideoInfoVideoTitle",
+            "#\\38 1623266 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\32 19612640 #movie_player",
+            "#\\38 1623266 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#\\32 19612640 .ytmVideoInfoChannelAvatar",
+            "#\\38 1623266 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav--top-level > ul > li:nth-child(4) > a[data-drupal-link-system-path=\"node/316\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/business-and-community-partnerships",
+      "title": "Business Partnerships and Training | Arapahoe CC",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/business-and-community-partnerships",
+      "slug": "workforce-community-programs-business-and-community-partnerships",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav--top-level > ul > li:nth-child(4) > .is-active[data-drupal-link-system-path=\"node/316\"][aria-current=\"page\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/career-forward",
+      "title": "Career Forward | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/career-forward",
+      "slug": "workforce-community-programs-career-forward",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav--top-level > ul > li:nth-child(4) > a[data-drupal-link-system-path=\"node/316\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/colorado-health-careers-academy",
+      "title": "Colorado Health Careers Academy | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/colorado-health-careers-academy",
+      "slug": "workforce-community-programs-colorado-health-careers-academy",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\36 24324492 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\36 24324492 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#\\36 24324492 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/colorado-space-institute",
+      "title": "Colorado Space Institute at ACC | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/colorado-space-institute",
+      "slug": "workforce-community-programs-colorado-space-institute",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav--top-level > ul > li:nth-child(4) > a[data-drupal-link-system-path=\"node/316\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/littleton-leadership-academy",
+      "title": "Littleton Leadership Academy | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/littleton-leadership-academy",
+      "slug": "workforce-community-programs-littleton-leadership-academy",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".expandable-nav--top-level > ul > li:nth-child(4) > a[data-drupal-link-system-path=\"node/316\"]",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(2) > span:nth-child(1) > strong",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(2) > span:nth-child(3) > strong"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/mobile-learning-lab",
+      "title": "Mobile Learning Lab | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/mobile-learning-lab",
+      "slug": "workforce-community-programs-mobile-learning-lab",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".expandable-nav--top-level > ul > li:nth-child(4) > a[data-drupal-link-system-path=\"node/316\"]",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_title",
+            ".slick-current.slick-active[data-slick-index=\"0\"] > .paragraph--type--feature-slider-slide__grid-container > .paragraph--type--feature-slider-slide__text > .field_body_formatted > p:nth-child(1)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/policies",
+      "title": "Policies | ACC Workforce & Community Programs",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/policies",
+      "slug": "workforce-community-programs-policies",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".expandable-nav--top-level > ul > li:nth-child(4) > a[data-drupal-link-system-path=\"node/316\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arapahoe.edu/workforce-community-programs/year-career",
+      "title": "Year to Career | Arapahoe Community College",
+      "finalUrl": "https://www.arapahoe.edu/workforce-community-programs/year-career",
+      "slug": "workforce-community-programs-year-career",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".sidebar-navigation"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://arapahoe.edu/": "pages/home.html",
+    "https://arapahoe.edu/about-acc": "pages/about-acc.html",
+    "https://arapahoe.edu/about-acc/acc-vision-strategic-plan": "pages/about-acc-acc-vision-strategic-plan.html",
+    "https://arapahoe.edu/about-acc/accreditation": "pages/about-acc-accreditation.html",
+    "https://arapahoe.edu/about-acc/college-leadership": "pages/about-acc-college-leadership.html",
+    "https://arapahoe.edu/about-acc/college-leadership/information-about-covid-19/acc-cares": "pages/about-acc-college-leadership-information-about-covid-19-acc-cares.html",
+    "https://arapahoe.edu/about-acc/employment-acc": "pages/about-acc-employment-acc.html",
+    "https://arapahoe.edu/about-acc/faculty-staff-directory/media-and-press/privacy-policy": "pages/about-acc-faculty-staff-directory-media-and-press-privacy-policy.html",
+    "https://arapahoe.edu/about-acc/foundation": "pages/about-acc-foundation.html",
+    "https://arapahoe.edu/about-acc/foundation/alumni": "pages/about-acc-foundation-alumni.html",
+    "https://arapahoe.edu/about-acc/institutional-research": "pages/about-acc-institutional-research.html",
+    "https://arapahoe.edu/about-acc/locations": "pages/about-acc-locations.html",
+    "https://arapahoe.edu/about-acc/locations/campus-maps": "pages/about-acc-locations-campus-maps.html",
+    "https://arapahoe.edu/about-acc/locations/castle-rock": "pages/about-acc-locations-castle-rock.html",
+    "https://arapahoe.edu/about-acc/locations/littleton": "pages/about-acc-locations-littleton.html",
+    "https://arapahoe.edu/about-acc/locations/lone-tree": "pages/about-acc-locations-lone-tree.html",
+    "https://arapahoe.edu/about-acc/media-and-press": "pages/about-acc-media-and-press.html",
+    "https://arapahoe.edu/about-acc/policies-procedures-processes": "pages/about-acc-policies-procedures-processes.html",
+    "https://arapahoe.edu/about-acc/policies-procedures-processes/accessibility-statement-and-issue-reporting": "pages/about-acc-policies-procedures-processes-accessibility-statement-and-issue-reporting.html",
+    "https://arapahoe.edu/about-acc/social-equity-and-belonging-council": "pages/about-acc-social-equity-and-belonging-council.html",
+    "https://arapahoe.edu/about-acc/visit-acc": "pages/about-acc-visit-acc.html",
+    "https://arapahoe.edu/academics-programs": "pages/academics-programs.html",
+    "https://arapahoe.edu/academics-programs/academic-calendar": "pages/academics-programs-academic-calendar.html",
+    "https://arapahoe.edu/academics-programs/academic-experiences": "pages/academics-programs-academic-experiences.html",
+    "https://arapahoe.edu/academics-programs/academic-experiences/apprenticeships": "pages/academics-programs-academic-experiences-apprenticeships.html",
+    "https://arapahoe.edu/academics-programs/bookstore": "pages/academics-programs-bookstore.html",
+    "https://arapahoe.edu/academics-programs/catalog/courses": "pages/academics-programs-catalog-courses.html",
+    "https://arapahoe.edu/academics-programs/catalog/home": "pages/academics-programs-catalog-home.html",
+    "https://arapahoe.edu/academics-programs/concurrent-enrollment": "pages/academics-programs-concurrent-enrollment.html",
+    "https://arapahoe.edu/academics-programs/course-schedules-0": "pages/academics-programs-course-schedules-0.html",
+    "https://arapahoe.edu/academics-programs/degrees-certificates": "pages/academics-programs-degrees-certificates.html",
+    "https://arapahoe.edu/academics-programs/degrees-certificates/bachelors-degrees": "pages/academics-programs-degrees-certificates-bachelors-degrees.html",
+    "https://arapahoe.edu/academics-programs/graduation": "pages/academics-programs-graduation.html",
+    "https://arapahoe.edu/admissions": "pages/admissions.html",
+    "https://arapahoe.edu/admissions/admissions-checklist": "pages/admissions-admissions-checklist.html",
+    "https://arapahoe.edu/admissions/admissions-requirements": "pages/admissions-admissions-requirements.html",
+    "https://arapahoe.edu/admissions/admissions-requirements/international-students": "pages/admissions-admissions-requirements-international-students.html",
+    "https://arapahoe.edu/admissions/amazon-career-choice": "pages/admissions-amazon-career-choice.html",
+    "https://arapahoe.edu/admissions/parents-and-families": "pages/admissions-parents-and-families.html",
+    "https://arapahoe.edu/admissions/paying-college": "pages/admissions-paying-college.html",
+    "https://arapahoe.edu/admissions/paying-college/veteran-benefits": "pages/admissions-paying-college-veteran-benefits.html",
+    "https://arapahoe.edu/admissions/prior-learning-assessment": "pages/admissions-prior-learning-assessment.html",
+    "https://arapahoe.edu/admissions/records-and-enrollment-services": "pages/admissions-records-and-enrollment-services.html",
+    "https://arapahoe.edu/admissions/register-classes": "pages/admissions-register-classes.html",
+    "https://arapahoe.edu/admissions/student-orientation": "pages/admissions-student-orientation.html",
+    "https://arapahoe.edu/admissions/summer-acc": "pages/admissions-summer-acc.html",
+    "https://arapahoe.edu/advising-support": "pages/advising-support.html",
+    "https://arapahoe.edu/advising-support/advising": "pages/advising-support-advising.html",
+    "https://arapahoe.edu/advising-support/career-services": "pages/advising-support-career-services.html",
+    "https://arapahoe.edu/advising-support/d2l-resources": "pages/advising-support-d2l-resources.html",
+    "https://arapahoe.edu/advising-support/disability-access-services": "pages/advising-support-disability-access-services.html",
+    "https://arapahoe.edu/advising-support/student-support": "pages/advising-support-student-support.html",
+    "https://arapahoe.edu/advising-support/student-support/campus-safety": "pages/advising-support-student-support-campus-safety.html",
+    "https://arapahoe.edu/advising-support/student-support/civil-rights-and-sexual-harassment": "pages/advising-support-student-support-civil-rights-and-sexual-harassment.html",
+    "https://arapahoe.edu/advising-support/student-support/dean-students": "pages/advising-support-student-support-dean-students.html",
+    "https://arapahoe.edu/advising-support/testing-center": "pages/advising-support-testing-center.html",
+    "https://arapahoe.edu/advising-support/transfer-services": "pages/advising-support-transfer-services.html",
+    "https://arapahoe.edu/advising-support/trio": "pages/advising-support-trio.html",
+    "https://arapahoe.edu/advising-support/tutoring-and-learning-resources": "pages/advising-support-tutoring-and-learning-resources.html",
+    "https://arapahoe.edu/blog": "pages/blog.html",
+    "https://arapahoe.edu/blog/acc-countdown-fall-2026-concludes": "pages/blog-acc-countdown-fall-2026-concludes.html",
+    "https://arapahoe.edu/blog/countdown-fall-2026-continues": "pages/blog-countdown-fall-2026-continues.html",
+    "https://arapahoe.edu/blog/countdown-fall-2026-continues-august-12": "pages/blog-countdown-fall-2026-continues-august-12.html",
+    "https://arapahoe.edu/blog/nokbox-coming-arapahoe-community-college-fall": "pages/blog-nokbox-coming-arapahoe-community-college-fall.html",
+    "https://arapahoe.edu/blog/peer-academic-mentor-program": "pages/blog-peer-academic-mentor-program.html",
+    "https://arapahoe.edu/campus-community": "pages/campus-community.html",
+    "https://arapahoe.edu/campus-community/art-galleries": "pages/campus-community-art-galleries.html",
+    "https://arapahoe.edu/campus-community/facility-rental": "pages/campus-community-facility-rental.html",
+    "https://arapahoe.edu/campus-community/fitness-center": "pages/campus-community-fitness-center.html",
+    "https://arapahoe.edu/campus-community/library-learning-commons": "pages/campus-community-library-learning-commons.html",
+    "https://arapahoe.edu/campus-community/student-life": "pages/campus-community-student-life.html",
+    "https://arapahoe.edu/campus-community/technology-acc": "pages/campus-community-technology-acc.html",
+    "https://arapahoe.edu/contact": "pages/contact.html",
+    "https://arapahoe.edu/events": "pages/events.html",
+    "https://arapahoe.edu/events/fafsa-lab": "pages/events-fafsa-lab.html",
+    "https://arapahoe.edu/events/rainbow-reception-1": "pages/events-rainbow-reception-1.html",
+    "https://arapahoe.edu/events/sti-hiv-testing-0": "pages/events-sti-hiv-testing-0.html",
+    "https://arapahoe.edu/news": "pages/news.html",
+    "https://arapahoe.edu/news/2026-commencement-ceremony-may-15": "pages/news-2026-commencement-ceremony-may-15.html",
+    "https://arapahoe.edu/news/acc-2025-26-faculty-instructor-certifications": "pages/news-acc-2025-26-faculty-instructor-certifications.html",
+    "https://arapahoe.edu/news/acc-architecture-duo-wins-2026-moa-competition": "pages/news-acc-architecture-duo-wins-2026-moa-competition.html",
+    "https://arapahoe.edu/news/acc-earns-highly-established-action-plan-seal-all": "pages/news-acc-earns-highly-established-action-plan-seal-all.html",
+    "https://arapahoe.edu/news/acc-foundation-receives-225k-reisher-scholars-program": "pages/news-acc-foundation-receives-225k-reisher-scholars-program.html",
+    "https://arapahoe.edu/news/acc-foundation-receives-3k-littleton-rotary": "pages/news-acc-foundation-receives-3k-littleton-rotary.html",
+    "https://arapahoe.edu/news/acc-garners-basic-needs-campus-designation-cdhe": "pages/news-acc-garners-basic-needs-campus-designation-cdhe.html",
+    "https://arapahoe.edu/news/acc-honored-oer-conference": "pages/news-acc-honored-oer-conference.html",
+    "https://arapahoe.edu/news/acc-music-competes-unc-greeley-jazz-festival": "pages/news-acc-music-competes-unc-greeley-jazz-festival.html",
+    "https://arapahoe.edu/news/cccs-honors-acc-employees-year": "pages/news-cccs-honors-acc-employees-year.html",
+    "https://arapahoe.edu/news/delao-honored-cacte": "pages/news-delao-honored-cacte.html",
+    "https://arapahoe.edu/news/fujii-named-aacc-board-chair-elect": "pages/news-fujii-named-aacc-board-chair-elect.html",
+    "https://arapahoe.edu/news/nasa-hubs-awards-13m-grant-colorado-space-institute-acc": "pages/news-nasa-hubs-awards-13m-grant-colorado-space-institute-acc.html",
+    "https://arapahoe.edu/news/tomas-named-chima-president-elect": "pages/news-tomas-named-chima-president-elect.html",
+    "https://arapahoe.edu/news/vice-president-instruction-search": "pages/news-vice-president-instruction-search.html",
+    "https://arapahoe.edu/news/viola-named-outstanding-vocational-faculty-advisor": "pages/news-viola-named-outstanding-vocational-faculty-advisor.html",
+    "https://arapahoe.edu/pathways": "pages/pathways.html",
+    "https://arapahoe.edu/public-projects": "pages/public-projects.html",
+    "https://arapahoe.edu/workforce-community-programs": "pages/workforce-community-programs.html",
+    "https://arapahoe.edu/workforce-community-programs/business-and-community-partnerships": "pages/workforce-community-programs-business-and-community-partnerships.html",
+    "https://arapahoe.edu/workforce-community-programs/career-forward": "pages/workforce-community-programs-career-forward.html",
+    "https://arapahoe.edu/workforce-community-programs/colorado-health-careers-academy": "pages/workforce-community-programs-colorado-health-careers-academy.html",
+    "https://arapahoe.edu/workforce-community-programs/colorado-space-institute": "pages/workforce-community-programs-colorado-space-institute.html",
+    "https://arapahoe.edu/workforce-community-programs/littleton-leadership-academy": "pages/workforce-community-programs-littleton-leadership-academy.html",
+    "https://arapahoe.edu/workforce-community-programs/mobile-learning-lab": "pages/workforce-community-programs-mobile-learning-lab.html",
+    "https://arapahoe.edu/workforce-community-programs/policies": "pages/workforce-community-programs-policies.html",
+    "https://arapahoe.edu/workforce-community-programs/year-career": "pages/workforce-community-programs-year-career.html"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-26T09:34:39.904Z",
+  "siteGenerated": "2026-08-26T21:10:48.965Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-arapahoe.edu",
   "report": {
-    "generated": "2026-08-25T22:27:52.829Z",
+    "generated": "2026-08-26T21:10:48.066Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -52,9 +52,9 @@
             ],
             "nodes": 3,
             "firstTargets": [
-              "#\\35 65367073 .ytmVideoInfoVideoTitle",
-              "#\\33 95355673 .ytmVideoInfoVideoTitle",
-              "#\\35 42643327 .ytmVideoInfoVideoTitle"
+              "#\\32 65699362 .ytmVideoInfoVideoTitle",
+              "#\\32 0629573 .ytmVideoInfoVideoTitle",
+              "#\\35 50107503 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -68,9 +68,9 @@
             ],
             "nodes": 3,
             "firstTargets": [
-              "#\\35 65367073 #movie_player",
-              "#\\33 95355673 #movie_player",
-              "#\\35 42643327 #movie_player"
+              "#\\32 65699362 #movie_player",
+              "#\\32 0629573 #movie_player",
+              "#\\35 50107503 #movie_player"
             ]
           },
           {
@@ -84,9 +84,9 @@
             ],
             "nodes": 3,
             "firstTargets": [
-              "#\\35 65367073 .ytmVideoInfoChannelAvatar",
-              "#\\33 95355673 .ytmVideoInfoChannelAvatar",
-              "#\\35 42643327 .ytmVideoInfoChannelAvatar"
+              "#\\32 65699362 .ytmVideoInfoChannelAvatar",
+              "#\\32 0629573 .ytmVideoInfoChannelAvatar",
+              "#\\35 50107503 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -130,8 +130,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\33 95355673",
-              "#\\35 42643327"
+              "#\\32 0629573",
+              "#\\35 50107503"
             ]
           }
         ]
@@ -227,7 +227,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\39 63314844 .ytmVideoInfoVideoTitle"
+              "#\\38 53638024 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -241,7 +241,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\39 63314844 #movie_player"
+              "#\\38 53638024 #movie_player"
             ]
           },
           {
@@ -255,7 +255,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\39 63314844 .ytmVideoInfoChannelAvatar"
+              "#\\38 53638024 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -389,7 +389,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\38 52933776 .ytmVideoInfoVideoTitle"
+              "#\\31 15932331 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -403,7 +403,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\38 52933776 #movie_player"
+              "#\\31 15932331 #movie_player"
             ]
           },
           {
@@ -417,7 +417,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\38 52933776 .ytmVideoInfoChannelAvatar"
+              "#\\31 15932331 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -589,11 +589,11 @@
             ],
             "nodes": 7,
             "firstTargets": [
-              "#\\34 85805435 .ytmVideoInfoVideoTitle",
-              "#\\36 50193917 .ytmVideoInfoVideoTitle",
-              "#\\35 75163489 .ytmVideoInfoVideoTitle",
-              "#\\36 9812091 .ytmVideoInfoVideoTitle",
-              "#\\36 04645805 .ytmVideoInfoVideoTitle"
+              "#\\38 05902778 .ytmVideoInfoVideoTitle",
+              "#\\39 68541230 .ytmVideoInfoVideoTitle",
+              "#\\36 73294393 .ytmVideoInfoVideoTitle",
+              "#\\34 96423538 .ytmVideoInfoVideoTitle",
+              "#\\35 3217256 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -607,11 +607,11 @@
             ],
             "nodes": 7,
             "firstTargets": [
-              "#\\34 85805435 #movie_player",
-              "#\\36 50193917 #movie_player",
-              "#\\35 75163489 #movie_player",
-              "#\\36 9812091 #movie_player",
-              "#\\36 04645805 #movie_player"
+              "#\\38 05902778 #movie_player",
+              "#\\39 68541230 #movie_player",
+              "#\\36 73294393 #movie_player",
+              "#\\34 96423538 #movie_player",
+              "#\\35 3217256 #movie_player"
             ]
           },
           {
@@ -625,11 +625,11 @@
             ],
             "nodes": 7,
             "firstTargets": [
-              "#\\34 85805435 .ytmVideoInfoChannelAvatar",
-              "#\\36 50193917 .ytmVideoInfoChannelAvatar",
-              "#\\35 75163489 .ytmVideoInfoChannelAvatar",
-              "#\\36 9812091 .ytmVideoInfoChannelAvatar",
-              "#\\36 04645805 .ytmVideoInfoChannelAvatar"
+              "#\\38 05902778 .ytmVideoInfoChannelAvatar",
+              "#\\39 68541230 .ytmVideoInfoChannelAvatar",
+              "#\\36 73294393 .ytmVideoInfoChannelAvatar",
+              "#\\34 96423538 .ytmVideoInfoChannelAvatar",
+              "#\\35 3217256 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -673,9 +673,9 @@
             ],
             "nodes": 6,
             "firstTargets": [
-              "#\\36 50193917",
-              "#\\35 75163489",
-              "#\\36 9812091"
+              "#\\39 68541230",
+              "#\\36 73294393",
+              "#\\34 96423538"
             ]
           }
         ]
@@ -697,8 +697,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\34 41235861 .ytmVideoInfoVideoTitle",
-              "#\\36 74673760 .ytmVideoInfoVideoTitle"
+              "#\\38 78921994 .ytmVideoInfoVideoTitle",
+              "#\\31 70921111 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -712,8 +712,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\34 41235861 #movie_player",
-              "#\\36 74673760 #movie_player"
+              "#\\38 78921994 #movie_player",
+              "#\\31 70921111 #movie_player"
             ]
           },
           {
@@ -727,8 +727,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\34 41235861 .ytmVideoInfoChannelAvatar",
-              "#\\36 74673760 .ytmVideoInfoChannelAvatar"
+              "#\\38 78921994 .ytmVideoInfoChannelAvatar",
+              "#\\31 70921111 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -920,7 +920,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\38 19517574 .ytmVideoInfoVideoTitle"
+              "#\\34 33564976 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -934,7 +934,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\38 19517574 #movie_player"
+              "#\\34 33564976 #movie_player"
             ]
           },
           {
@@ -948,7 +948,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\38 19517574 .ytmVideoInfoChannelAvatar"
+              "#\\34 33564976 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -986,11 +986,11 @@
             ],
             "nodes": 15,
             "firstTargets": [
-              "#\\39 03606190 .ytmVideoInfoVideoTitle",
-              "#\\33 68521626 .ytmVideoInfoVideoTitle",
-              "#\\35 81832808 .ytmVideoInfoVideoTitle",
-              "#\\36 71049577 .ytmVideoInfoVideoTitle",
-              "#\\37 06048125 .ytmVideoInfoVideoTitle"
+              "#\\33 79924652 .ytmVideoInfoVideoTitle",
+              "#\\34 40837253 .ytmVideoInfoVideoTitle",
+              "#\\39 7281748 .ytmVideoInfoVideoTitle",
+              "#\\35 61515072 .ytmVideoInfoVideoTitle",
+              "#\\39 924362 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -1004,11 +1004,11 @@
             ],
             "nodes": 15,
             "firstTargets": [
-              "#\\39 03606190 #movie_player",
-              "#\\33 68521626 #movie_player",
-              "#\\35 81832808 #movie_player",
-              "#\\36 71049577 #movie_player",
-              "#\\37 06048125 #movie_player"
+              "#\\33 79924652 #movie_player",
+              "#\\34 40837253 #movie_player",
+              "#\\39 7281748 #movie_player",
+              "#\\35 61515072 #movie_player",
+              "#\\39 924362 #movie_player"
             ]
           },
           {
@@ -1022,11 +1022,11 @@
             ],
             "nodes": 15,
             "firstTargets": [
-              "#\\39 03606190 .ytmVideoInfoChannelAvatar",
-              "#\\33 68521626 .ytmVideoInfoChannelAvatar",
-              "#\\35 81832808 .ytmVideoInfoChannelAvatar",
-              "#\\36 71049577 .ytmVideoInfoChannelAvatar",
-              "#\\37 06048125 .ytmVideoInfoChannelAvatar"
+              "#\\33 79924652 .ytmVideoInfoChannelAvatar",
+              "#\\34 40837253 .ytmVideoInfoChannelAvatar",
+              "#\\39 7281748 .ytmVideoInfoChannelAvatar",
+              "#\\35 61515072 .ytmVideoInfoChannelAvatar",
+              "#\\39 924362 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -1070,9 +1070,9 @@
             ],
             "nodes": 15,
             "firstTargets": [
-              "#\\39 03606190",
-              "#\\33 68521626",
-              "#\\35 81832808"
+              "#\\33 79924652",
+              "#\\34 40837253",
+              "#\\39 7281748"
             ]
           }
         ]
@@ -1140,9 +1140,9 @@
             ],
             "nodes": 3,
             "firstTargets": [
-              "#\\32 17962501 .ytmVideoInfoVideoTitle",
-              "#\\33 70532357 .ytmVideoInfoVideoTitle",
-              "#\\39 23896854 .ytmVideoInfoVideoTitle"
+              "#\\33 81648012 .ytmVideoInfoVideoTitle",
+              "#\\39 05773827 .ytmVideoInfoVideoTitle",
+              "#\\32 02601237 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -1156,9 +1156,9 @@
             ],
             "nodes": 3,
             "firstTargets": [
-              "#\\32 17962501 #movie_player",
-              "#\\33 70532357 #movie_player",
-              "#\\39 23896854 #movie_player"
+              "#\\33 81648012 #movie_player",
+              "#\\39 05773827 #movie_player",
+              "#\\32 02601237 #movie_player"
             ]
           },
           {
@@ -1172,9 +1172,9 @@
             ],
             "nodes": 3,
             "firstTargets": [
-              "#\\32 17962501 .ytmVideoInfoChannelAvatar",
-              "#\\33 70532357 .ytmVideoInfoChannelAvatar",
-              "#\\39 23896854 .ytmVideoInfoChannelAvatar"
+              "#\\33 81648012 .ytmVideoInfoChannelAvatar",
+              "#\\39 05773827 .ytmVideoInfoChannelAvatar",
+              "#\\32 02601237 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -1310,7 +1310,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\31 85287524 .ytmVideoInfoVideoTitle"
+              "#\\32 13201086 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -1324,7 +1324,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\31 85287524 #movie_player"
+              "#\\32 13201086 #movie_player"
             ]
           },
           {
@@ -1338,7 +1338,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\31 85287524 .ytmVideoInfoChannelAvatar"
+              "#\\32 13201086 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -1376,8 +1376,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\31 77079133 .ytmVideoInfoVideoTitle",
-              "#\\32 34673175 .ytmVideoInfoVideoTitle"
+              "#\\37 23567025 .ytmVideoInfoVideoTitle",
+              "#\\32 40870602 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -1391,8 +1391,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\31 77079133 #movie_player",
-              "#\\32 34673175 #movie_player"
+              "#\\37 23567025 #movie_player",
+              "#\\32 40870602 #movie_player"
             ]
           },
           {
@@ -1406,8 +1406,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\31 77079133 .ytmVideoInfoChannelAvatar",
-              "#\\32 34673175 .ytmVideoInfoChannelAvatar"
+              "#\\37 23567025 .ytmVideoInfoChannelAvatar",
+              "#\\32 40870602 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -1468,7 +1468,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\35 94744039 .ytmVideoInfoVideoTitle"
+              "#\\37 26032838 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -1482,7 +1482,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\35 94744039 #movie_player"
+              "#\\37 26032838 #movie_player"
             ]
           },
           {
@@ -1496,7 +1496,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\35 94744039 .ytmVideoInfoChannelAvatar"
+              "#\\37 26032838 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -1587,7 +1587,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\35 26617892 .ytmVideoInfoVideoTitle"
+              "#\\37 3455045 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -1601,7 +1601,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\35 26617892 #movie_player"
+              "#\\37 3455045 #movie_player"
             ]
           },
           {
@@ -1615,7 +1615,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\35 26617892 .ytmVideoInfoChannelAvatar"
+              "#\\37 3455045 .ytmVideoInfoChannelAvatar"
             ]
           },
           {
@@ -2042,7 +2042,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\39 82491280 .ytmVideoInfoVideoTitle"
+              "#\\34 4023503 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -2056,7 +2056,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\39 82491280 #movie_player"
+              "#\\34 4023503 #movie_player"
             ]
           },
           {
@@ -2070,7 +2070,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\39 82491280 .ytmVideoInfoChannelAvatar"
+              "#\\34 4023503 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -2252,7 +2252,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\34 63233029 .ytmVideoInfoVideoTitle"
+              "#\\35 48357121 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -2266,7 +2266,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\34 63233029 #movie_player"
+              "#\\35 48357121 #movie_player"
             ]
           },
           {
@@ -2280,7 +2280,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\34 63233029 .ytmVideoInfoChannelAvatar"
+              "#\\35 48357121 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -2515,8 +2515,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\35 09560715 .ytmVideoInfoVideoTitle",
-              "#\\34 34092184 .ytmVideoInfoVideoTitle"
+              "#\\35 14709564 .ytmVideoInfoVideoTitle",
+              "#\\32 99906472 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -2530,8 +2530,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\35 09560715 #movie_player",
-              "#\\34 34092184 #movie_player"
+              "#\\35 14709564 #movie_player",
+              "#\\32 99906472 #movie_player"
             ]
           },
           {
@@ -2545,8 +2545,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\35 09560715 .ytmVideoInfoChannelAvatar",
-              "#\\34 34092184 .ytmVideoInfoChannelAvatar"
+              "#\\35 14709564 .ytmVideoInfoChannelAvatar",
+              "#\\32 99906472 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -2590,8 +2590,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\35 09560715",
-              "#\\34 34092184"
+              "#\\35 14709564",
+              "#\\32 99906472"
             ]
           }
         ]
@@ -2630,7 +2630,7 @@
             "nodes": 2,
             "firstTargets": [
               ".article-list-main > .mini-pager[aria-labelledby=\"pagination-heading\"][role=\"navigation\"]",
-              ".js-view-dom-id-26e03bb77c41a88ab66f119817dd56822926dcb523252964328af9d0485a382f > .mini-pager[aria-labelledby=\"pagination-heading\"][role=\"navigation\"]"
+              ".js-view-dom-id-56bb9dd0a725e3b9d0eac599525673073f590a75a34f892a1c1e1f13cb0fa5e7 > .mini-pager[aria-labelledby=\"pagination-heading\"][role=\"navigation\"]"
             ]
           },
           {
@@ -2878,8 +2878,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\37 19947232 .ytmVideoInfoVideoTitle",
-              "#\\38 86966080 .ytmVideoInfoVideoTitle"
+              "#\\31 97221759 .ytmVideoInfoVideoTitle",
+              "#\\35 53320425 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -2893,8 +2893,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\37 19947232 #movie_player",
-              "#\\38 86966080 #movie_player"
+              "#\\31 97221759 #movie_player",
+              "#\\35 53320425 #movie_player"
             ]
           },
           {
@@ -2908,8 +2908,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\37 19947232 .ytmVideoInfoChannelAvatar",
-              "#\\38 86966080 .ytmVideoInfoChannelAvatar"
+              "#\\31 97221759 .ytmVideoInfoChannelAvatar",
+              "#\\35 53320425 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -3659,8 +3659,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\36 6006985 .ytmVideoInfoVideoTitle",
-              "#\\33 41771263 .ytmVideoInfoVideoTitle"
+              "#\\32 19612640 .ytmVideoInfoVideoTitle",
+              "#\\38 1623266 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -3674,8 +3674,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\36 6006985 #movie_player",
-              "#\\33 41771263 #movie_player"
+              "#\\32 19612640 #movie_player",
+              "#\\38 1623266 #movie_player"
             ]
           },
           {
@@ -3689,8 +3689,8 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "#\\36 6006985 .ytmVideoInfoChannelAvatar",
-              "#\\33 41771263 .ytmVideoInfoChannelAvatar"
+              "#\\32 19612640 .ytmVideoInfoChannelAvatar",
+              "#\\38 1623266 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
@@ -3813,7 +3813,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\31 53416990 .ytmVideoInfoVideoTitle"
+              "#\\36 24324492 .ytmVideoInfoVideoTitle"
             ]
           },
           {
@@ -3827,7 +3827,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\31 53416990 #movie_player"
+              "#\\36 24324492 #movie_player"
             ]
           },
           {
@@ -3841,7 +3841,7 @@
             ],
             "nodes": 1,
             "firstTargets": [
-              "#\\31 53416990 .ytmVideoInfoChannelAvatar"
+              "#\\36 24324492 .ytmVideoInfoChannelAvatar"
             ]
           }
         ],
